@@ -4,7 +4,7 @@ import time
 
 PAUSE_TIME = 30 # pause time in seconds, change to change the amount of time between two phrases. Default: 30
 
-phrases = [
+phrases = [ # add your custom phrases to this list to make the voice say your phrase!
     "This device is possesed",
     "Press control plus C to perform exorcism",
     "Insert evil laugh",
@@ -33,9 +33,10 @@ phrases = [
     "Insert more spoooooooooooky noises",
     "I am Zarvox, destroyer of Windows",
     "Press command plus Q to stop me",
-    "What do you call a robot that runs into walls?.. WALL - E",
+    "What do you call a robot that runs into walls?.. WALL - E"
 ]
 
+# main loop
 while True:
     try:
         phrase = random.choice(phrases)
