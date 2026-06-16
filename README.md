@@ -18,7 +18,7 @@ The programs, when running, will say random phrases in a robotic voice at a set 
 
 Install python from the [official website](https://www.python.org).
 
-Depending on your Operating System, (`virus.py` for MacOS and `winVirus.py` for Windows)
+Depending on your Operating System, (`virus.py` for MacOS and `winVirus.py` for Windows) download the code from this repo.
 
 ## Run code
 
