@@ -4,7 +4,7 @@ import time
 
 PAUSE_TIME = 30 # pause time in seconds, change to change the amount of time between two phrases. Default: 30
 
-phrases = [
+phrases = [ # Add your own phrases to this list to make the voice say your custom phrase!
     "This device is possesed",
     "Press control plus C to perform exorcism",
     "Insert evil laugh",
@@ -33,9 +33,8 @@ phrases = [
     "Insert more spoooooooooooky noises",
     "I am Zarvox, destroyer of Windows",
     "Press command plus Q to stop me",
-    "What do you call a robot that runs into walls?.. WALL - E",
+    "What do you call a robot that runs into walls?.. WALL - E"
 ]
-
 
 def speak(text):
     escaped_text = text.replace("'", "''")
@@ -48,7 +47,8 @@ def speak(text):
         capture_output=True,
     )
 
-
+# main loop
+speak("Virus initialized")
 while True:
     try:
         phrase = random.choice(phrases)
